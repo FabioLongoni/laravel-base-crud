@@ -1,0 +1,59 @@
+.hero {
+  height: 300px;
+  background-image: url('/img/jumbotron.jpg');
+  background-size: cover;
+  background-position: top,center;
+}
+
+.line__blue {
+  height: 5rem;
+  background-color: #0282f9;
+  position: relative;
+  img {
+    position: absolute;
+    bottom: 20px;
+    width: 150px;
+    left: 20rem;
+    border: 1px solid white;
+  }
+}
+
+.container__sm {
+  max-width: 700px;
+  margin: 0 auto;
+ 
+  .principal__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    padding: 3rem 0;
+    .principal__info__text {
+      flex-basis: 70%;
+      h1 {
+        text-transform: uppercase;
+        font-size: 24px;
+      }
+    }
+  }
+  .info__price {
+    display: flex;
+    line-height: 10px;
+    letter-spacing: .05em;
+    padding: 0.75rem 1rem;
+    background-color: #55ba59;
+    margin: 1rem 0;
+    .av {
+      flex-grow: 1;
+      text-align: end;
+    }
+  }
+  .description {
+    font-size: 12px;
+  }
+}
+
+.art__write {
+  background-color: #f6f6f6;
+  border-top: 1px solid rgb(194, 187, 187);
+}
+

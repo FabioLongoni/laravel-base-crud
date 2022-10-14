@@ -1,0 +1,29 @@
+.container__lg {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+
+  .list-item {
+    line-height: 100%;
+    text-transform: uppercase;
+    font-size: $font-size-upper;
+    padding: 1.9rem 0;
+
+    &.active, &:hover {
+      color: $light-blue;
+      border-bottom: 4px solid $light-blue;
+    }
+  }
+
+  img {
+    width: 60px;
+    padding: 0.75rem 0;
+  }
+
+  .nav-bar-header {
+    display:flex;
+    gap: 1rem;
+    align-items:center;
+  }
+}

@@ -1,1 +1,31 @@
-//
+@import'/partial/variable';
+@import'/header';
+@import'/footer';
+@import'/comics';
+@import'/show';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul,
+ol,
+menu {
+  list-style: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}

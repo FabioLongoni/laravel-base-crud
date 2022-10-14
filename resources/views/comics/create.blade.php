@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('mataTitle','DcComics-Create Comic')
+@section('metaTitle','DcComics-Create Comic')
 
 @section('content')
   <section>
@@ -22,7 +22,7 @@
         </div>
         <div>
           <label for="thumb">Thumb</label>
-          <input type="image" name="thumb" id="thumb" placeholder="Thumb">
+          <input type="text" name="thumb" id="thumb" placeholder="Thumb">
         </div>
         <div>
           <label for="price">Price</label>
