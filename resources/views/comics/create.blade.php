@@ -22,7 +22,7 @@
         </div>
         <div>
           <label for="thumb">Thumb</label>
-          <input type="text" name="thumb" id="thumb" placeholder="Thumb">
+          <input type="image" name="thumb" id="thumb" placeholder="Thumb">
         </div>
         <div>
           <label for="price">Price</label>
