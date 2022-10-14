@@ -5,7 +5,9 @@
 @section('content')
 <section class="main__content">
   <div class="hero">
-    <button id="btn__current">current series</button>
+    <a href="{{ route('comics.create') }}">
+      <button id="btn__current">add comic</button>
+    </a>
   </div>
   <div class="container container__card">
     @foreach ($comics as $comic)
