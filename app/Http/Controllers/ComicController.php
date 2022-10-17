@@ -41,9 +41,9 @@ class ComicController extends Controller
             'description' =>'required',
             'thumb' => 'nullable|max:255',
             'price' => 'required',
-            'series' => 'required|100',
+            'series' => 'required|max:100',
             'sale_date' => 'required',
-            'type' => 'required|50'
+            'type' => 'required|max:50'
         ]);
         // $comic = new Comic(); 
         // $comic->fill($params);
@@ -58,7 +58,7 @@ class ComicController extends Controller
 
         //$comic->save();
         $comic = Comic::create($params);
-        
+
         return redirect()->route('comics.show',$comic);
     }
 
@@ -101,9 +101,9 @@ class ComicController extends Controller
             'description' =>'required',
             'thumb' => 'nullable|max:255',
             'price' => 'required',
-            'series' => 'required|100',
+            'series' => 'required|max:100',
             'sale_date' => 'required',
-            'type' => 'required|50'
+            'type' => 'required|max:50'
         ]);
 
         $comic->update($params);
