@@ -16,7 +16,7 @@
       <form action="{{ route('comics.update',$comic) }}" method="POST" style="text-align: center">
         @csrf
         @method('PUT')
-        
+
         <div class="input-text">
           <label for="title">Title</label>
           <input type="text" name="title" id="title" placeholder="Title" style=" @error('title') border-color: red  @enderror" value="{{old('title',$comic->title)}}">
@@ -67,7 +67,7 @@
           @enderror
         </div>
         <div class="input-text btn">
-          <input type="Submit" value="Go">
+          <input type="Submit" value="Save">
         </div>
         
       </form>
