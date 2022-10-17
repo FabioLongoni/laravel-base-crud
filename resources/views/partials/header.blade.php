@@ -1,6 +1,6 @@
 <header>
   <div class="container__lg">
-    <a href="">
+    <a href="{{route('home')}}">
       <img src="{{asset('img/dc-logo.png')}}" alt="logo Dc-Comics">
     </a>  
     <ul class="nav-bar-header">

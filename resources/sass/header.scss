@@ -4,11 +4,12 @@
   max-width: 1200px;
   margin: 0 auto;
 
-  .list-item {
+  .nav-bar-header a {
     line-height: 100%;
     text-transform: uppercase;
     font-size: $font-size-upper;
     padding: 1.9rem 0;
+    font-weight: bold;
 
     &.active, &:hover {
       color: $light-blue;
