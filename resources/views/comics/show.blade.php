@@ -32,6 +32,14 @@
       <div>
         <img class="apply" src="/img/adv.jpg" alt="">
       </div>
+      <div class="operations">
+        <a href="{{ route('comics.edit',$comic) }}">Edit</a>
+        <form action="{{ route('comics.destroy',$comic) }}" method="POST">
+          @csrf
+          @method('DELETE')
+          <input class="btn__delete" type="submit" value="delete">
+        </form>
+      </div>
     </div>
   </div>
 </div>

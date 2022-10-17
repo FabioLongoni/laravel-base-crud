@@ -8,7 +8,7 @@
     <a href="{{ route('comics.create') }}">
       <button id="btn__current">add comic</button>
     </a>
-  </div>
+  </div>  
   <div class="container container__card">
     @foreach ($comics as $comic)
       <article class="card">
@@ -16,7 +16,7 @@
           <img src="{{ $comic->thumb }}" alt="{{ $comic->title }}">
           <div>{{ $comic->series }}</div>
         </a>
-      </article>
+      </article>     
     @endforeach
   </div>
   <div class="main__button container">

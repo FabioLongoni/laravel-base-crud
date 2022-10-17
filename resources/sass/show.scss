@@ -21,12 +21,14 @@
 .container__sm {
   max-width: 700px;
   margin: 0 auto;
+  padding: 1rem 0;
  
   .principal__info {
     display: flex;
     justify-content: space-between;
     gap: 1.5rem;
     padding: 3rem 0;
+    position: relative;
     .principal__info__text {
       flex-basis: 70%;
       h1 {
@@ -57,3 +59,11 @@
   border-top: 1px solid rgb(194, 187, 187);
 }
 
+.operations {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
